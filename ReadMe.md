@@ -89,6 +89,25 @@ The General Code Extractor is a command-line tool designed to traverse through d
 4.  **Output Files:** After running the command, the extracted code will be saved in the specified output file(s). If a word limit is used and exceeded, you'll find multiple part files in the same directory as the main output file.
 
 
+ # General Code Extractor API Documentation (Command-Line Interface)
+
+This document describes the command-line interface (CLI) API for the General Code Extractor tool. You can interact with the tool by executing it from your command line or terminal with various arguments to control its behavior.
+
+## Executable
+
+The executable file for the General Code Extractor is typically named:
+
+*   `GeneralCodeExtracter.exe` (on Windows)
+*   `GeneralCodeExtracter` (on Linux/macOS, if built for those platforms and made executable)
+
+You need to execute this file from your command line to use the tool.
+
+## Command-Line Arguments
+
+The General Code Extractor accepts the following command-line arguments, in order:
+
+GeneralCodeExtracter.exe <source_directory> [output_file_path] [word_limit] [file_extensions] [excluded_directories]
+
 
 Arguments in square brackets `[]` are optional.
 
